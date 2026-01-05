@@ -203,6 +203,31 @@ img {
   transform: scale(1.1);
 }
 
+.video-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.video-modal video {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 12px;
+}
+
+.video-modal .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+
 
 /* =====================
    Contact
@@ -315,3 +340,4 @@ img {
   }
 
 }
+
