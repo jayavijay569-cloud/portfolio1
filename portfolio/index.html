@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<script src="script.js">
+</script>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo"> Portfolio</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="btn">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <span class="hello">Hi, I'm</span>
+      <h1>Jaya vijay </h1>
+      <h3>Freelancer</h3>
+      <p>
+        I create beautiful, functional, and user-friendly websites,
+        applications and engineering 3D CAD. Passionate about clean code and innovative solutions.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="https://github.com/jayavijay569-cloud" class="btn dark">View My Work</a>
+        <a href="/files/Resume_JayaVijay.pdf" class="btn outline"><i class="fa fa-download"></i> Download CV</a>
+      </div>
+
+      <div class="socials">
+        <a href="https://github.com/jayavijay569-cloud"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jaya-vijay-621539260/"> <i class="fab fa-linkedin"></i> </a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="/src/hero.jpeg" alt="Code Image">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+
+    <div class="about-container">
+      <div class="about-text">
+        <h3>Crafting Digital Experiences</h3>
+        <p>
+          As a graduate I want to start my career in Technical field to ease the mankind
+          challenges, I am seeking an opportunity to learn new things.
+          improve my skills and also contribute effectively to a dynamic team.
+        </p>
+        <p>
+          As a M.Tech graduate specializing in mechanical engineering and CAD/CAM technologies.
+          Skilled in computational simulations, design optimization, and engineering analysis.
+        </p>
+        <p>
+          Strong commitment to innovation, continuous learning, 
+           and delivering high-quality technical solutions.
+        </p>
+      </div>
+
+      <div class="about-image">
+        <img src="src/office.jpg" alt="Office">
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2>Skills & Technologies</h2>
+    <p class="subtitle">Here are some technologies and tools I work with</p>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>CAD Tools</h3>
+        <span>Auto CAD</span>
+        <span>Ansys</span>
+        <span>Solidworks</span>
+        <span>NX CAD</span>
+        <span>Blender</span>
+      </div>
+
+      <div class="skill-card">
+        <h3>Full Stack web development</h3>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JS</span>
+        <span>SQL</span>
+      </div>
+
+      <div class="skill-card">
+        <h3>Tools & Others</h3>
+        <span>Git</span>
+        <span>Android Studio</span>
+        <span>Figma</span>
+        <span>Flutter</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Featured Projects</h2>
+    <p class="subtitle">Some recent projects that showcase my work</p>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="/src/analsys01.png" alt="">
+        <h3>CFD-Based Battery Thermal Management System (M.Tech)</h3>
+        <p>
+          Developed liquid-based cooling system simulations using ANSYS Fluent.
+        </p>
+        <div class="tags">
+          <span>Ansys,</span><span>Solidworks,</span><span>NanoFluids</span><span> </span>
+        </div>
+        <div class="project-links">
+          <a href="https://grabcad.com/jaya.vijay-1"><i class="fa fa-external-link"></i> Live Demo</a>
+          
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/src/3d_model.png" alt="">
+        <h3>Portable Vertical Axis Wind Turbine (B.Tech)</h3>
+        <p>
+          Designed 3D CAD models using SolidWorks for aerodynamic optimization.
+        </p>
+        <div class="tags">
+           <span>Solidworks </span><span>3d printing</span><span> electronics</span><span> </span>
+        </div>
+        <div class="project-links">
+          <a href="https://grabcad.com/jaya.vijay-1"><i class="fa fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+
+     <!-- <div class="project-card">
+        <img src="images/project3.jpg" alt="">
+        <h3>Portfolio Website Builder</h3>
+        <p>
+          Drag-and-drop builder for stunning portfolios without coding.
+        </p>
+        <div class="tags">
+          <span>React</span><span>Tailwind</span><span>Firebase</span><span>DnD</span>
+        </div>
+        <div class="project-links">
+          <a href="#"><i class="fa fa-external-link"></i> Live Demo</a>
+          <a href="#"><i class="fab fa-github"></i> Code</a>
+        </div>
+      </div>
+    </div> -->
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <p class="subtitle">Have a project in mind or want to collaborate?</p>
+
+    <div class="contact-container">
+     <!-- <form class="contact-form">
+        <h3>Send a Message</h3>
+        <input type="text" placeholder="Your name" required>
+        <input type="email" placeholder="your.email@example.com" required>
+        <textarea rows="5" placeholder="Your message..."></textarea>
+        <button type="submit" class="btn dark">Send Message</button>
+      </form> -->
+
+      <div class="contact-info">
+        <div><a href="mailto:jayavijay569@gmail.com?&subject=Website%20Contact&body=Hello%20Vijay,%0A%0AI%20visited%20your%20portfolio%20website."> <i class="fa fa-envelope"></i> jayavijay569@gmail.com </a></div>
+        <div><i class="fa fa-phone"></i> +91 9381237510</div>
+        <div><i class="fa fa-location-dot"></i> Visakhapatnam, AP, India.</div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
