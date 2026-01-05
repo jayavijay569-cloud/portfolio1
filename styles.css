@@ -181,6 +181,29 @@ img {
   border-radius: 12px;
 }
 
+.video-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 45px;
+  height: 45px;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: 0.3s ease;
+}
+
+.video-btn:hover {
+  background: #1e40af;
+  transform: scale(1.1);
+}
+
+
 /* =====================
    Contact
 ===================== */
@@ -290,4 +313,5 @@ img {
     font-size: 22px;
     margin: 0 10px;
   }
+
 }
